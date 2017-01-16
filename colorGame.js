@@ -10,22 +10,33 @@ var colors = [
 var squares = document.querySelectorAll(".square");
 var pickedColor = colors[3];
 var colorDisplay = document.querySelector("#colorDisplay");
-colorDisplay.textContent=pickedColor;
+var message=document.querySelector("#message");
+colorDisplay.textContent = pickedColor;
 for (var i = 0; i < squares.length; i++) {
     squares[i].style.background = colors[i];
 
     // add eventListener to squares
-    squares[i].addEventListener("click",function () {
-      var clickedColor=this.style.background;
+    squares[i].addEventListener("click", function() {
+        var clickedColor = this.style.background;
 
-      // checking if clicked color is correct
-      if (clickedColor===pickedColor) {
-        alert("correct");
+        // checking if clicked color is correct
+        if (clickedColor === pickedColor) {
+            message.textContent="CORRECT";
+            changeColors(clickedColor);
 
-      }else {
-        alert("wrong");
-      }
+        } else {
+            this.style.background = "#232323";
+            message.textContent="TRY AGAIN!!!";
+        }
 
     });
 
+}
+
+function changeColors(color){
+  //loop through all squares
+  for (var i = 0; i < squares.length; i++) {
+    //change color to picked color
+    squares[i].style.background=color;
+  }
 }

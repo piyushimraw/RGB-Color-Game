@@ -13,6 +13,9 @@ h1 {
   float: left;
   margin: 1.66%;
 }
+#message{
+  color: white;
+}
 
 #container{
   max-width: 600px;
