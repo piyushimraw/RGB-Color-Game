@@ -13,11 +13,19 @@ h1 {
   float: left;
   margin: 1.66%;
 }
-#message{
-  color: white;
-}
 
 #container{
   max-width: 600px;
   margin: 0 auto;
+}
+
+.stripe{
+  background: white;
+  text-align: center;
+  height: 30px;
+  color: black;
+}
+
+.selected{
+  background: blue;
 }
