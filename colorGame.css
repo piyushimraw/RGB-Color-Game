@@ -13,6 +13,7 @@ h1 {
   margin: 0;
   line-height: 1.1;
   padding: 20px 0;
+  transition: background 0.5s;
 }
 
 .square{
