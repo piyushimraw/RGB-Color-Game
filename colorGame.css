@@ -1,76 +1,76 @@
-body{
-  background-color: #232323;
-  margin: 0;
-  font-family: "Avenir";
+body {
+    background-color: #232323;
+    margin: 0;
+    font-family: "Avenir";
 }
 
 h1 {
-  color: white;
-  text-align: center;
-  background-color: steelblue;
-  font-weight: normal;
-  text-transform: uppercase;
-  margin: 0;
-  line-height: 1.1;
-  padding: 20px 0;
-  transition: background 0.5s;
+    color: white;
+    text-align: center;
+    background-color: steelblue;
+    font-weight: normal;
+    text-transform: uppercase;
+    margin: 0;
+    line-height: 1.1;
+    padding: 20px 0;
+    transition: background 0.5s;
 }
 
-.square{
-  width: 30%;
-  padding-bottom: 30%;
-  background: purple;
-  float: left;
-  margin: 1.66%;
-  border-radius: 50%;
-  transition: background 0.5s;
+.square {
+    width: 30%;
+    padding-bottom: 30%;
+    background: purple;
+    float: left;
+    margin: 1.66%;
+    border-radius: 50%;
+    transition: background 0.5s;
 }
 
-#container{
-  max-width: 600px;
-  margin: 20px auto;
-
+#container {
+    max-width: 600px;
+    margin: 20px auto;
 }
 
-.stripe{
-  background: white;
-  text-align: center;
-  height: 30px;
-  color: black;
-}
-#colorDisplay{
-  font-weight: 800;
-  font-size: 2.0em;
-}
-.selected{
-  color: white;
-  background: steelblue;
+.stripe {
+    background: white;
+    text-align: center;
+    height: 30px;
+    color: black;
 }
 
-button{
-  border: none;
-  background: none;
-  text-transform: uppercase;
-  height: 100;
-  padding: 5px 2px;
-  color: steelblue;
-  letter-spacing: 1px;
-  font-weight: 700;
-  font-size: inherit;
-  transition: all 0.3s;
-
+#colorDisplay {
+    font-weight: 800;
+    font-size: 2.0em;
 }
 
-#message{
-  display: inline-block;
-  width: 20%;
-  color: steelblue;
-  font-weight: 700;
-  font-size: inherit;
-  transition: all 0.3s;
+.selected {
+    color: white;
+    background: steelblue;
 }
 
-button:hover{
-  color: white;
-  background: steelblue;
+button {
+    border: none;
+    background: none;
+    text-transform: uppercase;
+    height: 100;
+    padding: 5px 2px;
+    color: steelblue;
+    letter-spacing: 1px;
+    font-weight: 700;
+    font-size: inherit;
+    transition: all 0.3s;
+}
+
+#message {
+    display: inline-block;
+    width: 20%;
+    color: steelblue;
+    font-weight: 700;
+    font-size: inherit;
+    transition: all 0.3s;
+}
+
+button:hover {
+    color: white;
+    background: steelblue;
 }
